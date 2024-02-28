@@ -22,7 +22,9 @@ public class ReturnActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Intent intent1 = new Intent(ReturnActivity.this,ButtonExercise.class);
                 startActivity(intent1);
+                finish();
             }
         });
+
     }
 }

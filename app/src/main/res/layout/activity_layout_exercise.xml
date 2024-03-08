@@ -45,8 +45,6 @@
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="16dp"
-                android:layout_marginEnd="16dp"
                 android:orientation="vertical">
 
                 <de.hdodenhof.circleimageview.CircleImageView
@@ -55,13 +53,14 @@
                     android:layout_height="92dp"
                     android:layout_marginStart="16dp"
                     android:src="@drawable/screenshot_2024_02_22_121213"
-                    app:civ_border_color="#FF000000"
-                    app:civ_border_width="1dp" />
+                    app:civ_border_color="@color/instagramBorder"
+                    app:civ_border_width="3dp" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
+                    android:textAlignment="center"
                     android:text="@string/user1" />
 
             </LinearLayout>
@@ -69,8 +68,6 @@
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="16dp"
-                android:layout_marginEnd="16dp"
                 android:orientation="vertical">
 
                 <de.hdodenhof.circleimageview.CircleImageView
@@ -79,8 +76,8 @@
                     android:layout_height="92dp"
                     android:layout_marginStart="16dp"
                     android:src="@drawable/screenshot_2024_02_22_121240"
-                    app:civ_border_color="#FF000000"
-                    app:civ_border_width="1dp" />
+                    app:civ_border_color="@color/instagramBorder"
+                    app:civ_border_width="3dp" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -93,8 +90,6 @@
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="16dp"
-                android:layout_marginEnd="16dp"
                 android:orientation="vertical">
 
                 <de.hdodenhof.circleimageview.CircleImageView
@@ -103,8 +98,8 @@
                     android:layout_height="92dp"
                     android:layout_marginStart="16dp"
                     android:src="@drawable/screenshot_2024_02_22_121252"
-                    app:civ_border_color="#FF000000"
-                    app:civ_border_width="1dp" />
+                    app:civ_border_color="@color/instagramBorder"
+                    app:civ_border_width="3dp" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -117,8 +112,6 @@
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="16dp"
-                android:layout_marginEnd="16dp"
                 android:orientation="vertical">
 
                 <de.hdodenhof.circleimageview.CircleImageView
@@ -127,8 +120,8 @@
                     android:layout_height="92dp"
                     android:layout_marginStart="16dp"
                     android:src="@drawable/screenshot_2024_02_22_121305"
-                    app:civ_border_color="#FF000000"
-                    app:civ_border_width="1dp" />
+                    app:civ_border_color="@color/instagramBorder"
+                    app:civ_border_width="3dp" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -141,8 +134,6 @@
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="16dp"
-                android:layout_marginEnd="16dp"
                 android:orientation="vertical">
 
                 <de.hdodenhof.circleimageview.CircleImageView
@@ -151,14 +142,56 @@
                     android:layout_height="92dp"
                     android:layout_marginStart="16dp"
                     android:src="@drawable/screenshot_2024_02_22_121318"
-                    app:civ_border_color="#FF000000"
-                    app:civ_border_width="1dp" />
+                    app:civ_border_color="@color/instagramBorder"
+                    app:civ_border_width="3dp" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
                     android:text="@string/user5" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="88dp"
+                    android:layout_height="92dp"
+                    android:layout_marginStart="16dp"
+                    android:src="@drawable/screenshot_2024_02_16_140816"
+                    app:civ_border_color="@color/instagramBorder"
+                    app:civ_border_width="3dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="@string/user6" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="88dp"
+                    android:layout_height="92dp"
+                    android:layout_marginStart="16dp"
+                    android:src="@drawable/screenshot_2024_02_22_121327"
+                    app:civ_border_color="@color/instagramBorder"
+                    app:civ_border_width="3dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="@string/user7" />
 
             </LinearLayout>
 
@@ -327,10 +360,6 @@
                 android:layout_marginBottom="16dp"
                 android:scaleType="centerCrop"
                 app:srcCompat="@drawable/instabuttons" />
-
-
-
-
 
 
         </LinearLayout>

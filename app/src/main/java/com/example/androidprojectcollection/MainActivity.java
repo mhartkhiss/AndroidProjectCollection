@@ -9,9 +9,7 @@ import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
 
-    Button btn1;
-    Button btn2;
-
+    Button btn1, btn2, btn3;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -32,6 +30,14 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent2 = new Intent(MainActivity.this,ButtonExercise.class);
+                startActivity(intent2);
+            }
+        });
+        btn3 = (Button) findViewById(R.id.btnCalculator);
+        btn3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent2 = new Intent(MainActivity.this,Calculator.class);
                 startActivity(intent2);
             }
         });

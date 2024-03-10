@@ -20,8 +20,6 @@ public class ReturnActivity extends AppCompatActivity {
         btn1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent1 = new Intent(ReturnActivity.this,ButtonExercise.class);
-                startActivity(intent1);
                 finish();
             }
         });

@@ -34,7 +34,7 @@ public class ButtonExercise extends AppCompatActivity {
         btn2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(ButtonExercise.this, "Hi! This is Toast. Activity 2 Button!", Toast.LENGTH_SHORT).show();
+                Toast.makeText(ButtonExercise.this, "Konichiwa! Toast message des!", Toast.LENGTH_SHORT).show();
             }
         });
 
@@ -44,7 +44,7 @@ public class ButtonExercise extends AppCompatActivity {
             public void onClick(View v) {
 
                 activityButtons = findViewById(R.id.buttonExerciseLayout);
-                activityButtons.setBackgroundColor(Color.BLUE);
+                activityButtons.setBackgroundColor(Color.rgb((int)(Math.random() * 255), (int)(Math.random() * 255), (int)(Math.random() * 255)));
             }
         });
 
@@ -52,7 +52,8 @@ public class ButtonExercise extends AppCompatActivity {
         btn4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                btn4.setBackgroundColor(Color.RED);
+
+                btn4.setBackgroundColor(Color.rgb((int)(Math.random() * 255), (int)(Math.random() * 255), (int)(Math.random() * 255)));
             }
         });
         btn5 = (Button) findViewById(R.id.btnDisappear);

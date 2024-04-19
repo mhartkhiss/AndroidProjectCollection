@@ -27,7 +27,7 @@ public class Calculator extends AppCompatActivity {
         Button button1 = findViewById(R.id.button1);
         Button button2 = findViewById(R.id.button2);
         Button button3 = findViewById(R.id.button3);
-        Button button4 = findViewById(R.id.button4);
+        Button button4 = findViewById(R.id.btnMidterm);
         Button button5 = findViewById(R.id.button5);
         Button button6 = findViewById(R.id.button6);
         Button button7 = findViewById(R.id.button7);

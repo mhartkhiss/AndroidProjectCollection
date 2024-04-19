@@ -79,7 +79,7 @@
             android:textSize="25sp" />
 
         <Button
-            android:id="@+id/button4"
+            android:id="@+id/btnMidterm"
             android:layout_gravity="end|center_vertical"
             android:text="4"
             android:textSize="25sp" />
